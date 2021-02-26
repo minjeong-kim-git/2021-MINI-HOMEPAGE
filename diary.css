@@ -1,0 +1,261 @@
+﻿.profile-container {
+    flex: 0.4;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container {
+    flex: 0.15;
+}
+
+.header {
+    flex: 0.1;
+}
+
+.box {
+    background-color: white;
+    flex: 3;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+}
+
+.content-title-name {
+    flex: 1;
+}
+
+.content-title-url {
+    flex: 1;
+    font-size: 0.5rem; /* 적용한 폰트 특성 상 사이즈가 커서 font-size 조정 */
+    text-align: end; /* 텍스트 우측 정렬 */
+}
+
+.profile-title {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-red {
+    color: red;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.profile-image {
+    flex: none;
+}
+
+.profile-image-img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-text {
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    line-height: 1.7;
+    flex: 1;
+}
+
+.profile-username {
+    flex: 0;
+}
+
+.dropdown {
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.down {
+    width: 0;
+    height: 0;
+    margin: auto;
+    margin-right: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid black
+}
+
+.drop {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid darkgray;
+    font-size: 12px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: fixed;
+    background-color: lightgray;
+    min-width: 200px 400px;
+    box-shadow: 0px 5px 10px 0px gray;
+}
+
+.dropdown-menu a {
+        color: black;
+        text-align: center;
+        padding: 6px 72.5px;
+        font-size: 10px;
+        display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .drop {
+    background-color: darkgray;
+}
+.content-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar-container {
+    flex: 0.1;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    border: 1px solid darkgray;
+    border-radius: 9px;
+}
+
+.diary-container {
+    flex: 1;
+    position: relative;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.date-box {
+    flex: 0.1;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days-box {
+    flex: 1;
+    font-size: 1rem;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day {
+    width: 24px;
+    text-align: center;
+}
+
+.sat {
+    margin-left: 5px;
+    color: blue;
+}
+
+.sun {
+    margin-left: 5px;
+    color: red;
+}
+
+.scroll-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.diary-box {
+    font-size: 0.9rem;
+}
+
+.diary-contents {
+    font-size: 1rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secret {
+    color: white;
+    background-color: white;
+    padding: 1rem;
+    margin: auto;
+    transition: 800ms ease all;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.secret:hover {
+        color: white;
+        background-color: gray;
+}
+
+.fas {
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+}
+
+.hidden {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    background-color: lightgray;
+    border-radius: 9px;
+    width: 70%;
+}
+
+.menu-button {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #4f85a7;
+    color: white;
+    border: 1px solid #07618b;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 0.1px;
+    margin-right: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+.menu-button:hover {
+        background-color: rgba(85, 156, 209, 0.93);
+        color: white;
+        cursor: pointer;
+}
+
+.menu-button:active {
+        box-shadow: inset 0px 2px 8px 8px rgba(9, 50, 112, 0.93);
+}
